@@ -1,0 +1,440 @@
+.hero-image-container {
+  margin-bottom: 35%;
+}
+
+.hero-title-ob {
+  padding-top: 8%;
+  width: 40%;
+}
+
+.hero-text-ob {
+  text-align: left
+}
+
+.opening-screens {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+/* Survey */
+
+.stat {
+  text-align: center;
+}
+
+.question-stat {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 85%;
+}
+
+.asked {
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.question {
+  font-family: "freight-display-pro",serif;
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin: .5rem 0;
+}
+
+.question-stat .stat {
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+/* The User */
+
+.persona-quote {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+/* Primary Objectives */
+
+.primary-title {
+  width: 12rem;
+}
+
+.mvp-assets-ob {
+  width: 95%;
+}
+
+.sub-heading {
+  margin-top: 12%;
+}
+
+.user-flow-ob {
+  position: absolute;
+  right: -2rem;
+}
+
+.contributors-container {
+  margin-bottom: 70%;
+}
+
+.wireframe-ob {
+  position: absolute;
+  right: -2rem;
+  width: 100%;
+}
+
+.building-title {
+  width: 12rem;
+}
+
+.building {
+  margin-bottom: 50%;
+}
+
+/* Creating the Atmosphere */
+
+.creating-title {
+  width: 14rem;
+}
+
+.logo-marks {
+  display: block;
+  margin: 10% auto;
+  width: 90%;
+}
+
+.final-mark {
+  display: block;
+  margin: 10% auto;
+  width: 40%;
+}
+
+.typefaces-ob {
+  display: block;
+  margin: 10% auto;
+  width: 85%;
+}
+
+.palette-img-ob {
+  display: block;
+  margin: 10% auto;
+  width: 85%;
+}
+
+.touch-pic {
+  position: absolute;
+  right: 0;
+}
+
+.touches {
+  margin-bottom: 80%;
+}
+
+/* Prototype */
+
+.finishing-title {
+  width: 10.5rem;
+}
+
+.flow-desktop {
+  display: none;
+}
+
+.homepage-img, .flow-mobile {
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.prototype-link {
+  margin-top: 10%;
+}
+
+@media (min-width: 768px) {
+
+  .main-title {
+    margin-bottom: .5rem;
+  }
+
+  .hero-title-ob {
+    width: 35%;
+  }
+
+  .hero-excerpt {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  /* Survey */
+
+  .one-year {
+    top: 10%;
+    right: 6rem;
+  }
+
+  .question-stat {
+    margin: 0;
+    margin-left: 2rem;
+    width: 40%;
+  }
+
+  .stat-two, .stat-three {
+    margin-top: 5rem;
+  }
+
+  .stat-three {
+    margin-bottom: 5rem;
+  }
+
+  .asked {
+    margin-top: 0;
+  }
+
+  .consider {
+    top: 12%;;
+  }
+
+  /* The User */
+
+  .avatar {
+    margin-bottom: 40%;
+  }
+
+  /* Primary Objectives */
+
+  .primary-title {
+    width: 16rem;
+  }
+
+  .mvp-assets-ob {
+    width: 48%;
+  }
+
+  .accounts-container {
+    margin-top: 5%;
+    margin-bottom: 70%;
+  }
+
+  .accounts-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 100%;
+  }
+
+  .user-stories-ob {
+    width: 75%;
+  }
+
+  .contributors-container {
+    margin-bottom: 10%;
+  }
+
+  .user-flow-ob {
+    top: 18%;
+    width: 52%;
+  }
+
+  /* Building the Structure */
+
+  .building-title {
+    width: 16rem;
+  }
+
+  .wireframe-ob {
+    right: -2rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+
+  .building-text {
+    top: 10%;
+  }
+
+  /* Creating the Atmosphere */
+
+  .creating-title {
+    width: 18.5rem;
+  }
+
+  .logo-marks {
+    margin: 5% auto;
+    width: 70%;
+  }
+
+  .final-mark {
+    margin: 5% 0;
+    margin-left: 6rem;
+    margin-bottom: 25%;
+    padding-top: 7%;
+    width: 25%;
+  }
+
+  .logo-text {
+    top: 0;
+  }
+
+  .typefaces-ob {
+    position: absolute;
+    top: -4.5rem;
+    right: 2.5rem;
+    width: 40%;
+  }
+
+  .palette-img-ob {
+    margin: 15% 0;
+    padding-top: 3%;
+    margin-left: 2rem;
+    width: 42%;
+  }
+
+  /* Prototype */
+
+  .finishing-title {
+    width: 13.5rem;
+  }
+
+  .touch-pic {
+    top: 40%;
+  }
+
+  .touches {
+    margin-bottom: 10%;
+  }
+
+  .flow-mobile {
+    display: none;
+  }
+
+  .flow-desktop {
+    display: block;
+  }
+
+  .prototype-subhead {
+    margin-top: 5%;
+  }
+
+  .homepage-img {
+    width: 50%;
+  }
+
+  .flow-desktop {
+    display: block;
+    margin: auto;
+    width: 92%;
+  }
+
+  .journal-flow .sub-heading {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .main-title {
+    margin-bottom: 1rem;
+  }
+
+  .hero-text-ob {
+    padding-top: 3%;
+  }
+
+  .opening-screens {
+    width: 70%;
+  }
+
+  /* Survey */
+
+  .one-year {
+    top: 13%;
+    right: 9rem;
+  }
+
+  .question-stat {
+    margin-left: 6rem;
+    width: 30%;
+  }
+
+  .stat-two, .stat-three {
+    margin-top: 6rem;
+  }
+
+  /* The User */
+
+  .avatar {
+    margin-bottom: 30%;
+  }
+
+  /* Primary Objectives */
+
+  .primary-title {
+    width: 18rem;
+  }
+
+  .mvp-assets-ob {
+    width: 48%;
+  }
+
+  .user-stories-ob {
+    width: 65%;
+  }
+
+  /* Building the Structure */
+
+  .building-title {
+    width: 18rem;
+  }
+
+  .building-text {
+    top: 18%;
+  }
+
+  /* Creating the Atmosphere */
+
+  .creating-title {
+    width: 20.5rem;
+  }
+
+  .logo-marks {
+    margin: 8% auto;
+    width: 60%;
+  }
+
+  .final-mark {
+    margin-left: 10rem;
+    padding-top: 5%;
+    width: 20%;
+  }
+
+  .typefaces-ob {
+    top: -7rem;
+    right: 4rem;
+    width: 35%;
+  }
+
+  .palette-img-ob {
+    padding-top: 2%;
+    margin-left: 4rem;
+    width: 40%;
+  }
+
+  /* Prototype */
+
+  .finishing-title {
+    width: 16rem;
+  }
+
+  .prototype-subhead {
+    margin-top: 5%;
+  }
+
+  .homepage-img {
+    width: 50%;
+  }
+
+  .flow-desktop {
+    width: 85%;
+  }
+}

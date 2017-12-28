@@ -1,0 +1,691 @@
+.text {
+  line-height: 1.5rem;
+  padding-left: 2rem;
+  width: 90%;
+  max-width: 25rem;
+}
+
+.title-text {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.main-title {
+  margin-top: 30%;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+
+.sub-title {
+  color: #C96982;
+  padding-bottom: 1rem;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.hero-title {
+  display: block;
+  margin: auto;
+  padding-top: 36%;
+  width: 50%;
+}
+
+.hero-iphone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  width: 40%;
+  max-width: 11.875rem;
+}
+
+.hero-text {
+  text-align: left;
+  margin-top: 10%;
+}
+
+.excerpt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+  max-width: 23rem;
+}
+
+.onboarding-mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.onboarding {
+  display: none;
+}
+
+.article-title {
+  margin-top: 3.75rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2.25px solid #C96982;
+}
+
+/* Survey */
+
+.survey-title {
+  width: 8.5rem;
+ }
+
+.stats {
+  text-align: center;
+}
+
+.percentage {
+  font-family: "freight-display-pro",serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 2rem;
+  padding-bottom: .3rem;
+}
+
+.stat-description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "freight-display-pro",serif;
+  line-height: 1.25rem;
+  max-width: 9rem;
+  padding-bottom: 1rem;
+}
+
+/* The User */
+
+.user-title {
+  width: 10.5rem;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem;
+  width: 13.75rem;
+}
+
+.persona-type,
+.persona-name {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.persona-type {
+  font-weight: 500;
+  color: #C1B7A7;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+}
+
+.persona-name {
+  font-family: "freight-display-pro",serif;
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+
+ul {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 1.25rem;
+}
+
+.persona-heading {
+  font-weight: 300;
+}
+
+/* Creating the MVP */
+
+.mvp-title {
+  width: 10.5rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.mvp-assets {
+  width: 85%;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #EA916A;
+  padding-left: 2rem;
+  margin: 0;
+  max-width: 70%;
+  line-height: 1.75rem;
+}
+
+.user-stories {
+  float: right;
+  margin-bottom: 3rem;
+}
+
+.container-two {
+  clear: right;
+}
+
+.user-flow {
+  margin-bottom: 3rem;
+}
+
+.wireframe-cta {
+  float: right;
+  margin-bottom: 4rem;
+}
+
+/* Identity */
+
+.identity-title {
+  width: 9.5rem;
+}
+
+.logo-bkgrnd {
+  display: none;
+}
+
+.logo-bkgrnd-mobile {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.symbols {
+  text-align: center;
+  margin-top: -10%;
+}
+
+.symbols-heading {
+  font-family: "freight-display-pro",serif;
+  font-size: 1.375rem;
+  margin-top: 2%;
+  margin-bottom: .5rem;
+}
+
+.symbols-description {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  line-height: 1.2rem;
+  width: 9.5rem;
+}
+
+/* Headings and Palette */
+
+.headings-type {
+  display: block;
+  margin: 3rem auto;
+  width: 14.25rem;
+}
+
+.palette-desktop {
+  display: none;
+}
+
+.palette-mobile {
+  display: block;
+  margin: 3rem auto;
+  width: 12rem;
+}
+
+/* Prototype */
+
+.prototype-title {
+  width: 11.5rem;
+}
+
+.prototype-desktop {
+  display: none;
+}
+
+.prototype-mobile {
+  display: block;
+  margin: 3rem auto;
+  width: 17.5rem;
+}
+
+.prototype-link {
+  display: block;
+  margin: auto;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: #C96982;
+  text-align: center;
+  width: 65%;
+}
+
+@media (min-width: 768px) {
+  .text {
+    width: 45%;
+  }
+
+  .title-text {
+    padding-left: 2rem;
+  }
+
+  .main-title {
+    margin-top: 15%;
+  }
+
+  .sub-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    width: 40%;
+  }
+
+  .hero-iphone {
+    margin: none;
+    margin-left: 12%;
+  }
+
+  .text-right {
+    position: absolute;
+    right: 2rem;
+  }
+
+  .hero-text {
+    top: 37%;
+  }
+
+  .excerpt {
+    margin-top: 13%;
+    margin-bottom: 6%;
+  }
+
+  .onboarding-mobile {
+    display: none;
+  }
+
+  .onboarding {
+    display: block;
+    margin: auto;
+    width: 70%;
+    max-width: 40rem;
+  }
+
+  /* Survey */
+
+  .survey-title {
+    width: 11rem;
+  }
+
+  .survey {
+    position: relative;
+    margin-top: 15%;
+  }
+
+  .survey-excerpt {
+    top: 18%;
+    width: 40%;
+  }
+
+  .stat {
+    display: inline-block;
+    padding: 0 1.5rem;
+  }
+
+  /* The User */
+
+  .user-title {
+    width: 13.5rem;
+  }
+
+  .user {
+  margin-top: 15%;
+  }
+
+  .persona {
+    position: relative;
+    width: 100%;
+  }
+
+  .avatar {
+    padding-top: 5%;
+    margin-left: 16%;
+    margin-bottom: 55%;
+  }
+
+  .persona-type,
+  .persona-name {
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  .persona-text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+  }
+
+  /* Creating the MVP */
+
+  .mvp-title {
+    width: 13.5rem;
+  }
+
+  .mvp-assets {
+   width: 47%;
+  }
+
+  .user-stories {
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+
+  .container-two {
+    margin-top: 10%;
+    padding-bottom: 0;
+  }
+
+  .keeping-text {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+  }
+
+  .container-three {
+    margin-top: 10%;
+  }
+
+  .wireframe-cta {
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 8%;
+
+  }
+
+  .container-four {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .optimizing-text {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+  }
+
+  .wireframe-map {
+    margin-top: 6%;
+  }
+
+  /* Identity */
+
+  .identity-title {
+    width: 12rem;
+  }
+
+  .identity {
+    position: relative;
+    margin-top: 25%;
+  }
+
+  .logo-bkgrnd-mobile {
+    display: none;
+  }
+
+  .logo-bkgrnd {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    display: block;
+    width: 30%;
+  }
+
+  .symbols {
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    right: 28%;
+  }
+
+  /* Headings and Palette */
+
+  .headings {
+    position: relative;
+    margin-top: 40%;
+  }
+
+  .headings-type {
+    display: block;
+    margin: 0;
+    margin-left: 2rem;
+    width: 40%;
+    max-width: 20rem;
+  }
+
+  .headings-text {
+    top: 12%;
+  }
+
+  .palette {
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 30%;
+  }
+
+  .palette-desktop {
+    display: block;
+    margin-left: 2rem;
+    width: 58%;
+    max-width: 31.5rem;
+  }
+
+  .palette-mobile {
+    display: none;
+  }
+
+  .palette-text {
+    top: 120%;
+  }
+
+  /* Prototype */
+
+  .prototype-title {
+    width: 15rem;
+  }
+
+  .prototype-desktop {
+    display: block;
+    margin: 5% auto;
+    width: 85%;
+    max-width: 54rem;
+  }
+
+  .prototype-mobile {
+    display: none;
+  }
+
+  .prototype-link {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10%;
+    width: 38%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .text {
+    padding-left: 5rem;
+    max-width: 26rem;
+  }
+
+  .text-right {
+    right: 6rem;
+  }
+
+  ul {
+    font-size: 1.125rem;
+  }
+
+  .title-text {
+    padding-left: 3rem;
+  }
+
+  .main-title {
+    margin-bottom: 1%;
+  }
+
+  .hero-iphone {
+    margin-top: 15%;
+  }
+
+  .hero-text {
+    top: 25%;
+  }
+
+  .excerpt {
+    max-width: 30rem;
+  }
+
+  .onboarding {
+    display: block;
+    margin: auto;
+  }
+
+  .article-title {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #C96982;
+    width: 16rem;
+  }
+
+  /* Survey */
+
+  .survey-title {
+    width: 12.5rem;
+  }
+
+  .survey-excerpt {
+    top: 15%;
+    width: 35%;
+  }
+
+  .stat {
+    padding: 0 2rem;
+    vertical-align: top;
+  }
+
+  .percentage {
+  font-size: 3rem;
+  padding-bottom: 10%;
+}
+
+  /* The User */
+
+  .user-title {
+    width: 16rem;
+  }
+
+  .avatar {
+    padding-top: 2%;;
+    margin-left: 15%;
+    margin-bottom: 40%;
+    width: 19rem;
+  }
+
+  .persona-type,
+  .persona-name {
+    padding-left: 5rem;
+  }
+
+  /* Creating the MVP */
+
+  .mvp-title {
+    width: 16rem;
+  }
+
+  .sub-heading {
+    font-size: 1.75rem;
+    padding-left: 5rem;
+    max-width: 20rem;
+    line-height: 2rem;
+  }
+
+  .keeping-text {
+    top: 12%;
+  }
+
+  .optimizing-text {
+    top: 8%;
+  }
+
+  /* Identity */
+
+  .identity-title {
+    width: 14rem;
+  }
+
+  .logo-bkgrnd {
+    width: 25%;
+  }
+
+  .symbols {
+    top: 2%;
+  }
+
+  /* Headings and Palette */
+
+  .headings {
+    margin-top: 30%;
+  }
+
+  .headings-type {
+    margin-left: 5rem;
+  }
+
+  .palette {
+    margin-top: 15%;
+    margin-bottom: 25%;
+  }
+
+  .palette-desktop {
+    margin-left: 5rem;
+    max-width: 33rem;
+  }
+
+  /* Prototype */
+
+  .prototype-title {
+    width: 17rem;
+  }
+
+  .prototype-link {
+    font-size: 1.75rem;
+    width: 32%;
+  }
+
+
+}

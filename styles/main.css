@@ -1,0 +1,386 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FFFDFA;
+  font-size: 1rem;
+  color: #282828;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: "freight-display-pro",serif;
+  font-weight: 300;
+  color: #282828;
+}
+
+h5, h6 {
+  font-family: "mr-eaves-modern",sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+  color: #C96982;
+}
+
+p {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav */
+
+nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.nav-text {
+  display: block;
+}
+
+.nav-name {
+  font-family: "freight-display-pro",serif;
+  font-weight: 300;
+  font-size: 1.375rem;
+  color: #282828;
+}
+
+.nav-middle {
+  font-family: "mr-eaves-modern",sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #C1B7A7;
+  padding-top: 3%;
+}
+
+/* Hero */
+
+.tri {
+  width: 30%;
+  max-width: 180px;
+}
+
+.tri-top {
+  position: absolute;
+  right: 0;
+  top: 9.5rem;
+  width: 40%;
+}
+
+.tri-first {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-text {
+  margin-top: 22%;
+  text-align: center;
+}
+
+.hello {
+  padding: 0 2rem;
+}
+
+.intro {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 87%;
+}
+
+.tri-second {
+  position: absolute;
+  top: 62%;
+  right: 0;
+}
+
+/* Work */
+
+.work {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.work h5 {
+  margin-bottom: 7%;
+}
+
+.project{
+  font-family: "mr-eaves-modern",sans-serif;
+  color: #282828;
+}
+
+.project img {
+  width: 80%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.project h6 {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.project p {
+  margin-top: 1%;
+  margin-bottom: 15%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Contact */
+
+footer {
+  position: relative;
+  margin-top: 35%;
+  background: #FAF3E6;
+}
+
+.tri-contact {
+  position: absolute;
+  left: 0;
+  top: -7.2rem;
+}
+
+.contact {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.contact-link h3 {
+  display: block;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  color: #C96982;
+  width: 13rem;
+  border-bottom: 1.5px solid #F4C134;
+}
+
+.contact-link p {
+  font-family: "freight-display-pro",serif;
+  font-weight: 300;
+  color: #282828;
+}
+
+.media {
+  padding: 0 2%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #FFFDFA;
+    background: linear-gradient(to right, #FFFDFA 0%, #FFFDFA 50%, #FFFDFA 50%, #FCF9EE 50%, #FCF9EE 50%);
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+  }
+
+
+  h2 {
+    font-size: 3.25rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 2.25rem;
+  }
+
+/* Nav */
+
+  .nav-text {
+  display: inline-block;
+  }
+
+  .nav-name {
+  position: absolute;
+  left: 4%;
+  font-size: 1.5rem;
+  }
+
+  .nav-middle {
+  font-size: 1.3rem;
+  padding: 0 2rem;
+  margin-top: 7px;
+  }
+
+/* Hero */
+
+  .tri-top {
+    top: 3rem;
+    max-width: 220px;
+  }
+
+  .hero-text {
+    margin-top: 30%;
+  }
+
+  .intro {
+    max-width: 70%;
+  }
+
+/* Work */
+
+  .work {
+    margin-top: 25%;
+  }
+
+  .work h5 {
+    margin-bottom: 5%;
+  }
+
+  .project h6 {
+    margin-top: 1%;
+    font-size: 1.75rem;
+  }
+
+  .project p {
+    margin-top: 0;
+    margin-bottom: 8%;
+    font-size: 1.125rem;
+  }
+
+/* Contact */
+
+  footer {
+    margin-top: 25%;
+  }
+
+  .tri-contact {
+    top: -11.2rem;
+  }
+
+  .contact {
+    padding: 5% 0;
+  }
+
+  .contact-link h3 {
+    font-size: 2.5rem;
+    width: 13rem;
+  }
+
+  .media {
+    padding: 0 .5%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.75rem;
+  }
+
+  h4 {
+    font-size: 1.875rem;
+  }
+
+  h5 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+/* Nav */
+
+  .nav-name {
+  left: 6%;
+  font-size: 1.75rem;
+  }
+
+  .nav-middle {
+  font-size: 1.5rem;
+  }
+
+/* Hero */
+
+  .tri {
+  max-width: 210px;
+  }
+
+  .tri-top {
+      max-width: 16rem;
+  }
+
+  .hero-text {
+    margin-top: 25%;
+  }
+
+  .intro {
+    max-width: 60%;
+  }
+
+  .tri-second {
+    top: 70%;
+  }
+
+/* Work */
+
+  .work {
+    margin-top: 25%;
+  }
+
+  .project h6 {
+    font-size: 1.75rem;
+  }
+
+  .project p {
+    font-size: 1.125rem;
+  }
+
+/* Contact */
+
+  footer {
+    margin-top: 25%;
+  }
+
+  .tri-contact {
+    top: -13.8rem;
+  }
+
+  .contact-link h3 {
+    font-size: 3rem;
+    width: 16rem;
+  }
+}
