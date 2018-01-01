@@ -8,13 +8,14 @@
 }
 
 .hero-text-ob {
-  text-align: left
+  text-align: left;
 }
 
 .opening-screens {
   display: block;
   margin: auto;
-  width: 95%;
+  width: 90%;
+  max-width: 45rem;
 }
 
 /* Survey */
@@ -54,6 +55,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 1.25rem;
+  padding-bottom: 2rem;
 }
 
 /* Primary Objectives */
@@ -64,25 +66,32 @@
 
 .mvp-assets-ob {
   width: 95%;
+  max-width: 35rem;
+  padding-top: 1.5rem;
 }
 
 .sub-heading {
-  margin-top: 12%;
+  margin-top: 2.5rem;
 }
 
-.user-flow-ob {
-  position: absolute;
-  right: -2rem;
+.user-stories-ob {
+  float: right;
+  padding-bottom: 2.5rem;
 }
 
 .contributors-container {
-  margin-bottom: 70%;
+  clear: right;
+  margin-bottom: 3rem;
 }
 
+/* Building the Structure */
+
 .wireframe-ob {
-  position: absolute;
-  right: -2rem;
-  width: 100%;
+  float: right;
+  width: 95%;
+  max-width: 40rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .building-title {
@@ -90,7 +99,7 @@
 }
 
 .building {
-  margin-bottom: 50%;
+  margin-bottom: 1rem;
 }
 
 /* Creating the Atmosphere */
@@ -103,33 +112,37 @@
   display: block;
   margin: 10% auto;
   width: 90%;
+  max-width: 28rem;
 }
 
 .final-mark {
   display: block;
   margin: 10% auto;
   width: 40%;
+  max-width: 14rem;
 }
 
 .typefaces-ob {
   display: block;
   margin: 10% auto;
   width: 85%;
+  max-width: 28rem;
 }
 
 .palette-img-ob {
   display: block;
   margin: 10% auto;
   width: 85%;
+  max-width: 28rem;
 }
 
 .touch-pic {
-  position: absolute;
-  right: 0;
+  float: right;
+  padding-bottom: 3.75rem;
 }
 
 .touches {
-  margin-bottom: 80%;
+  margin-bottom: 2rem;
 }
 
 /* Prototype */
@@ -146,6 +159,7 @@
   display: block;
   margin: 1rem auto;
   width: 90%;
+  max-width: 30rem;
 }
 
 .prototype-link {
@@ -163,8 +177,13 @@
   }
 
   .hero-excerpt {
-    margin-top: 8%;
-    margin-bottom: 8%;
+    top: -2rem;
+    left: 55%;
+    width: 40%;
+  }
+
+  .opening-screens {
+    padding-top: 4rem;
   }
 
   /* Survey */
@@ -212,29 +231,28 @@
     width: 48%;
   }
 
-  .accounts-container {
-    margin-top: 5%;
-    margin-bottom: 70%;
-  }
-
-  .accounts-text {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    width: 100%;
-  }
-
   .user-stories-ob {
-    width: 75%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 49%;
   }
 
   .contributors-container {
     margin-bottom: 10%;
   }
 
+  .contributors-text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+  }
+
   .user-flow-ob {
-    top: 18%;
-    width: 52%;
+    left: -1rem;
+    padding: 6rem 0;
+    width: 49%;
   }
 
   /* Building the Structure */
@@ -244,43 +262,52 @@
   }
 
   .wireframe-ob {
-    right: -2rem;
-    margin-top: 2rem;
-    width: 80%;
+    position: relative;
+    right: 0;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 85%;
+    max-width: 70rem;
   }
 
   .building-text {
-    top: 10%;
+    top: 60%;
   }
 
   /* Creating the Atmosphere */
 
   .creating-title {
+    padding-top: 3.75rem;
     width: 18.5rem;
   }
 
   .logo-marks {
     margin: 5% auto;
     width: 70%;
+    max-width: 45rem;
   }
 
   .final-mark {
     margin: 5% 0;
-    margin-left: 6rem;
+    margin-left: 15%;
     margin-bottom: 25%;
     padding-top: 7%;
     width: 25%;
   }
 
   .logo-text {
-    top: 0;
+    top: 2rem;
   }
 
   .typefaces-ob {
     position: absolute;
-    top: -4.5rem;
+    top: -5.5rem;
     right: 2.5rem;
     width: 40%;
+  }
+
+  .palette-text-ob {
+    top: 12%;
   }
 
   .palette-img-ob {
@@ -290,7 +317,15 @@
     width: 42%;
   }
 
+  .touch-pic {
+    position: absolute;
+    right: 0;
+  }
   /* Prototype */
+
+  .prototype-text {
+    padding-bottom: 1.5rem;
+  }
 
   .finishing-title {
     width: 13.5rem;
@@ -342,7 +377,8 @@
   }
 
   .opening-screens {
-    width: 70%;
+    width: 90%;
+    max-width: 50rem;
   }
 
   /* Survey */
@@ -378,7 +414,7 @@
   }
 
   .user-stories-ob {
-    width: 65%;
+    width: 48%;
   }
 
   /* Building the Structure */
@@ -387,8 +423,12 @@
     width: 18rem;
   }
 
+  .wireframe-ob {
+    right: 0;
+  }
+
   .building-text {
-    top: 18%;
+    top: 62%;
   }
 
   /* Creating the Atmosphere */
@@ -403,7 +443,7 @@
   }
 
   .final-mark {
-    margin-left: 10rem;
+    margin-left: 17%;
     padding-top: 5%;
     width: 20%;
   }

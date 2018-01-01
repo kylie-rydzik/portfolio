@@ -3,12 +3,15 @@
 }
 
 .about-hello {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-family: "freight-display-pro",serif;
   font-weight: 300;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  margin-top: 30%;
-  margin-left: 2rem;
+  margin-top: 10rem;
   margin-bottom: 1.5rem;
   width: 70%;
 }
@@ -21,25 +24,32 @@
   margin-bottom: 1.5rem;
 }
 
+.about-text {
+  display: block;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
 @media (min-width: 768px) {
 
   .about-hello {
     position: relative;
+    right: 8%;
     text-align: right;
     font-size: 3rem;
+    margin-top: 12rem;
     margin-bottom: 2rem;
-    padding-right: 4rem;
     width: 100%;
   }
 
   .about-pic {
     margin: 0;
-    margin-left: 5.2%;
+    margin-left: 7%;
     padding-bottom: 10%;
   }
 
   .about-text {
-    top: 12%;
+    top: 15%;
   }
 }
 
@@ -48,7 +58,7 @@
   .about-hello {
     font-size: 3rem;
     margin-bottom: 2.25rem;
-    padding-right: 12rem;
+    padding-right: 5rem;
     width: 100%;
   }
 
@@ -59,7 +69,7 @@
   }
 
   .about-text {
-    top: 12%;
+    top: 15%;
     right: 9.5rem;
   }
 }
