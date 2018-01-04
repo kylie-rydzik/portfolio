@@ -128,7 +128,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 3.5rem;
-  width: 13.75rem;
+  max-width: 13.75rem;
 }
 
 .persona-type,
@@ -147,7 +147,7 @@
 .persona-name {
   font-family: "freight-display-pro",serif;
   font-size: 2.25rem;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
 }
 
 ul {
@@ -158,7 +158,8 @@ ul {
 }
 
 .persona-heading {
-  font-weight: 300;
+  padding-top: 1rem;
+  font-weight: 400;
 }
 
 /* Creating the MVP */
@@ -170,6 +171,86 @@ ul {
 .container {
   position: relative;
   width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row .column.half {
+  width: 100%;
+}
+
+.row .column img {
+  width: 100%;
+}
+
+.row .text-container p.sub-heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.row .text-container-text {
+  margin: auto;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+  width: 90%;
+  max-width: 25rem;
+}
+
+  @media (min-width: 768px) {
+
+    .row .column.half {
+      width: 50%;
+      align-items: center;
+    }
+
+    .row .column.left {
+      padding: 0 2rem;
+    }
+
+    .row .column.right {
+      padding: 0 0 0 1rem;
+    }
+
+    .row .text-container p.sub-heading {
+      margin: 0;
+      margin-top: 2.5rem;
+      text-align: left;
+    }
+
+    .row .text-container-text {
+      margin: none;
+      padding-left: 0rem;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    .row .column.left {
+      padding: 0 5rem;
+    }
+
+    .row .column.right {
+      padding: 2rem 0 2rem 2rem;
+    }
+
+    .row .text-container p.sub-heading {
+      padding-left: 0;
+    }
+  }
+
+.right-div-text {
+    display: block;
+    margin: auto;
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+    width: 90%;
+    max-width: 25rem;
 }
 
 .mvp-assets {
@@ -402,28 +483,23 @@ ul {
   margin-top: 15%;
   }
 
-  .persona {
-    position: relative;
-    width: 100%;
+  .avatar {
+    max-width: 65%;
+    padding-top: 10%;
+    margin-left: 30%;
   }
 
-  .avatar {
-    padding-top: 5%;
-    margin-left: 16%;
-    margin-bottom: 25rem;
+  .text-container-user {
+    padding-left: 2rem;
   }
 
   .persona-type,
   .persona-name {
     text-align: left;
-    padding-left: 2rem;
   }
 
-  .persona-text {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 100%;
+  .persona-type {
+    padding-top: 5rem;
   }
 
   /* Creating the MVP */
@@ -449,20 +525,28 @@ ul {
     text-align: left;
   }
 
+  .text-container-float {
+      float: right;
+      width: 50%;
+      padding-top: 1%;
+  }
+
+  .right-div-text {
+    margin-left: 2rem;
+    padding-left: 0;
+  }
+
   .container-two {
-    margin-top: 5rem;
+    margin-top: 10%;
     padding-bottom: 0;
   }
 
   .keeping-text {
-    position: absolute;
-    top: 8%;
-    left: 50%;
-    width: 100%;
+    margin-top: 5%;
   }
 
   .container-three {
-    margin-top: 5rem;
+    margin-top: 10%;
   }
 
   .wireframe-cta {
@@ -470,19 +554,15 @@ ul {
     position: absolute;
     right: 0;
     top: 0;
-
   }
 
   .container-four {
-    margin-top: 5rem;
+    margin-top: 10%;
     margin-bottom: 15%;
   }
 
   .optimizing-text {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    width: 100%;
+    margin-top: 8%;
   }
 
   .wireframe-map {
@@ -661,16 +741,21 @@ ul {
   }
 
   .avatar {
-    padding-top: 2%;;
-    margin-left: 15%;
+    padding-top: 16%;
+    margin-left: 27%;
     margin-bottom: 40%;
-    width: 19rem;
+    max-width: 80%;
   }
 
-  .persona-type,
-  .persona-name {
-    padding-left: 5rem;
+  .text-container-user {
+    padding-left: 3.5rem;
   }
+
+  .row .text-container-text {
+    margin: 0;
+  }
+
+
 
   /* Creating the MVP */
 
@@ -683,6 +768,10 @@ ul {
     padding-left: 3rem;
     max-width: 20rem;
     line-height: 2rem;
+  }
+
+  .right-div-text {
+    margin-left: 5rem;
   }
 
   .keeping-text {

@@ -55,7 +55,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 1.25rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 }
 
 /* Primary Objectives */
@@ -74,14 +74,12 @@
   margin-top: 2.5rem;
 }
 
-.user-stories-ob {
-  float: right;
-  padding-bottom: 2.5rem;
+.row .column.right-user {
+  padding: 1.5rem 0 0 2rem;
 }
 
-.contributors-container {
-  clear: right;
-  margin-bottom: 3rem;
+.row .column.left-flow {
+  padding: 1.5rem 2rem 0 0;
 }
 
 /* Building the Structure */
@@ -199,8 +197,8 @@
     width: 40%;
   }
 
-  .stat-two, .stat-three {
-    margin-top: 5rem;
+  .stat-two {
+    margin-top: 4rem;
   }
 
   .stat-three {
@@ -212,14 +210,9 @@
   }
 
   .consider {
-    top: 12%;;
+    top: 0;
   }
 
-  /* The User */
-
-  .avatar {
-    margin-bottom: 40%;
-  }
 
   /* Primary Objectives */
 
@@ -231,28 +224,16 @@
     width: 48%;
   }
 
-  .user-stories-ob {
-    position: absolute;
-    top: 10%;
-    right: 0;
-    width: 49%;
-  }
-
-  .contributors-container {
-    margin-bottom: 10%;
-  }
-
-  .contributors-text {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 100%;
+  .accounts, .contributors {
+    margin-top: 5%;
   }
 
   .user-flow-ob {
-    left: -1rem;
-    padding: 6rem 0;
-    width: 49%;
+    padding: 5rem 0;
+  }
+
+  .user-image {
+    padding-top: 10%;
   }
 
   /* Building the Structure */
@@ -393,8 +374,8 @@
     width: 30%;
   }
 
-  .stat-two, .stat-three {
-    margin-top: 6rem;
+  .stat-two {
+    margin-top: 5rem;
   }
 
   /* The User */

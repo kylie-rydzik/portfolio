@@ -24,9 +24,13 @@
   margin-bottom: 1.5rem;
 }
 
-.about-text {
+.text-about {
   display: block;
   margin: auto;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+  width: 90%;
+  max-width: 25rem;
   padding-bottom: 3rem;
 }
 
@@ -43,33 +47,30 @@
   }
 
   .about-pic {
-    margin: 0;
-    margin-left: 7%;
     padding-bottom: 10%;
   }
 
-  .about-text {
-    top: 15%;
+  .text-about {
+    padding-left: 0;
+    width: 100%;
   }
 }
 
 @media (min-width: 1024px) {
 
   .about-hello {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 2.25rem;
-    padding-right: 5rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
     width: 100%;
   }
 
   .about-pic {
-    margin: 0;
-    margin-left: 18%;
     padding-bottom: 10%;
   }
 
-  .about-text {
-    top: 15%;
-    right: 9.5rem;
+  .text-about {
+    margin-top: 8%;
   }
 }
