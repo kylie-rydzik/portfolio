@@ -82,6 +82,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-size: 3rem;
   margin-top: 3.75rem;
   margin-bottom: 1.5rem;
   border-bottom: 2.25px solid #C96982;
@@ -90,7 +91,7 @@
 /* Survey */
 
 .survey-title {
-  width: 8.5rem;
+  width: 10rem;
  }
 
 .stats {
@@ -119,7 +120,7 @@
 /* The User */
 
 .user-title {
-  width: 10.5rem;
+  width: 12.5rem;
 }
 
 .avatar {
@@ -166,7 +167,7 @@ ul {
 /* Creating the MVP */
 
 .mvp-title {
-  width: 10.5rem;
+  width: 12.5rem;
 }
 
 .container {
@@ -263,7 +264,7 @@ ul {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 300;
   color: #EA916A;
   max-width: 70%;
@@ -292,7 +293,7 @@ ul {
 /* Identity */
 
 .identity-title {
-  width: 9.5rem;
+  width: 11.5rem;
 }
 
 .logo-bkgrnd {
@@ -354,7 +355,7 @@ ul {
 /* Prototype */
 
 .prototype-title {
-  width: 11.5rem;
+  width: 13.5rem;
 }
 
 .prototype-desktop {
