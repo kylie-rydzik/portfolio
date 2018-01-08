@@ -2,8 +2,7 @@
   display: block;
   margin: auto;
   line-height: 1.5rem;
-  padding-left: 2rem;
-  width: 90%;
+  width: 80%;
   max-width: 25rem;
 }
 
@@ -158,7 +157,9 @@ ul {
 }
 
 .persona-heading {
+  text-align: center;
   padding-top: 1rem;
+  padding-bottom: .5rem;
   font-weight: 400;
 }
 
@@ -196,8 +197,7 @@ ul {
 .row .text-container-text {
   margin: auto;
   line-height: 1.5rem;
-  padding-left: 2rem;
-  width: 90%;
+  width: 80%;
   max-width: 25rem;
 }
 
@@ -382,6 +382,7 @@ ul {
 @media (min-width: 768px) {
   .text {
     margin: 0;
+    padding-left: 2rem;
     width: 45%;
   }
 
@@ -407,8 +408,10 @@ ul {
   }
 
   .hero-iphone {
+    float: right;
     margin: none;
-    margin-left: 12%;
+    margin-top: 15%;
+    margin-right: 13%;
   }
 
   .text-right {
@@ -418,8 +421,7 @@ ul {
   }
 
   .hero-text {
-    top: 11rem;
-    margin-top: 5%;
+    margin-top: 35%;
   }
 
   .excerpt {
@@ -500,6 +502,10 @@ ul {
 
   .persona-type {
     padding-top: 5rem;
+  }
+
+  .persona-heading {
+    text-align: left;
   }
 
   /* Creating the MVP */
