@@ -118,6 +118,7 @@ nav {
 }
 
 .tri-second {
+  z-index: -1;
   position: absolute;
   top: 35rem;
   right: 0;
