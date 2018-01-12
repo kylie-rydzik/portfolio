@@ -11,8 +11,17 @@
   <body>
     <nav>
       <a class="nav-text nav-name" href="index.html">Kylie Tsering</a>
-      <a class="nav-text nav-middle" href="about.html">About</a>
-      <a class="nav-text nav-middle" href="#scroll-position">Contact</a>
+      <div class="nav-center">
+        <div class="nav-middle work-wrapper">
+          <a class="nav-text effect" href="index.html#scroll-position-work">Work</a>
+        </div>
+        <div class="nav-middle about-wrapper">
+          <a class="nav-text effect" href="about.html">About</a>
+        </div>
+        <div class="nav-middle contact-wrapper">
+          <a class="nav-text effect" href="#scroll-position">Contact</a>
+        </div>
+      </div>
     </nav>
     <section class="hero">
       <img class="tri tri-first" src="assets/home_tri1.png">
@@ -23,17 +32,24 @@
       <img class="tri tri-second" src="assets/home_tri2.png">
     </section>
     <section class="work">
+      <a name="scroll-position-work">
       <h5>Work</h5>
-      <a class="project" href="free_bird.html">
-        <img src="assets/home_free_bird.png">
-        <h6>Free Bird</h6>
-        <p>Original concept, Prototype</p>
-      </a>
-      <a class="project" href="open_book.html">
-        <img src="assets/home_open_book.png">
-        <h6>Open Book</h6>
-        <p>Original concept, Prototype</p>
-      </a>
+      <div class="row">
+        <div class="column half left">
+          <a class="project" href="open_book.html">
+            <img src="assets/home_open_book.png">
+            <h6>Open Book</h6>
+            <p>Original concept, Prototype</p>
+          </a>
+        </div>
+        <div class="column half right">
+          <a class="project" href="free_bird.html">
+            <img src="assets/home_free_bird.png">
+            <h6>Free Bird</h6>
+            <p>Original concept, Prototype</p>
+          </a>
+        </div>
+      </div>
     </section>
     <footer>
       <img class="tri tri-contact" src="assets/contact_tri.png">

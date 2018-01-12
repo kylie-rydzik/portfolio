@@ -31,8 +31,20 @@
   padding-left: 2rem;
   width: 90%;
   max-width: 25rem;
+  padding-bottom: 2rem;
+}
+
+.resume-link {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: #C96982;
   padding-bottom: 3rem;
 }
+
 
 @media (min-width: 768px) {
 
@@ -54,6 +66,20 @@
     padding-left: 0;
     width: 100%;
   }
+
+  .link-wrapper {
+    display: block;
+    margin: auto;
+    width: 6.5rem;
+  }
+
+  .resume-link.effect:after {
+    height:0.1rem;
+  }
+
+  .resume-link {
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -73,4 +99,13 @@
   .text-about {
     margin-top: 8%;
   }
+
+  .link-wrapper {
+    width: 7rem;
+  }
+
+  .resume-link {
+    font-size: 1.5rem;
+  }
+
 }

@@ -12,7 +12,7 @@
 }
 
 .main-title {
-  margin-top: 30%;
+  margin-top: 25%;
   font-weight: 400;
   line-height: 3.5rem;
 }
@@ -20,6 +20,24 @@
 .sub-title {
   color: #C96982;
   padding-bottom: 1rem;
+}
+
+.button-container-prototype {
+  text-align: center;
+  margin: .5rem 0 2rem 0;
+}
+
+.prototype-button {
+  background: #C96982;
+  width: 9rem;
+  border-radius: 0px;
+  text-align: center;
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #FFFDFA;
+  text-decoration: none;
+  padding: .8rem 1.2rem;
 }
 
 .hero {
@@ -223,7 +241,7 @@ ul {
     }
 
     .row .text-container-text {
-      margin: none;
+      margin: 0;
       padding-left: 0rem;
       width: 100%;
     }
@@ -380,6 +398,7 @@ ul {
 }
 
 @media (min-width: 768px) {
+
   .text {
     margin: 0;
     padding-left: 2rem;
@@ -396,7 +415,21 @@ ul {
   }
 
   .sub-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: .8rem;
+  }
+
+  .button-container-prototype {
+    text-align: left;
+    margin: 0 0 2.5rem 2rem;
+  }
+
+  .prototype-button {
+    font-size: 1.125rem;
+  }
+
+  .prototype-button:hover {
+    transition: 0.5s background ease;
+    background: #a0455d;
   }
 
   .hero-title {
@@ -633,7 +666,7 @@ ul {
   .palette-desktop {
     display: block;
     margin-left: 2rem;
-    width: 58%;
+    width: 42%;
     max-width: 31.5rem;
   }
 
@@ -642,7 +675,7 @@ ul {
   }
 
   .palette-text {
-    top: 120%;
+    top: 0;
   }
 
   /* Prototype */
@@ -662,11 +695,21 @@ ul {
     display: none;
   }
 
+  .prototype-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 45rem;
+  }
+
   .prototype-link {
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 10%;
     width: 38%;
+  }
+
+  .prototype-link.effect:after {
+    height:0.1rem;
   }
 
 }
@@ -690,12 +733,21 @@ ul {
     padding-left: 3rem;
   }
 
+  .button-container-prototype {
+    margin-left: 3rem;
+  }
+
+  .prototype-button {
+    font-size: 1.25rem;
+  }
+
   .main-title {
     margin-bottom: 1%;
   }
 
   .hero-iphone {
-    margin-top: 15%;
+    margin-top: 18%;
+    margin-right: 16%;
   }
 
   .hero-text {
@@ -750,7 +802,7 @@ ul {
     padding-top: 16%;
     margin-left: 27%;
     margin-bottom: 40%;
-    max-width: 80%;
+    max-width: 75%;
   }
 
   .text-container-user {
@@ -819,7 +871,7 @@ ul {
 
   .palette-desktop {
     margin-left: 5rem;
-    max-width: 33rem;
+    max-width: 25rem;
   }
 
   /* Prototype */
@@ -828,10 +880,14 @@ ul {
     width: 17rem;
   }
 
-  .prototype-link {
-    font-size: 1.75rem;
-    width: 32%;
+  .prototype-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 54rem;
   }
 
+  .prototype-link {
+    font-size: 1.75rem;
+  }
 
 }
