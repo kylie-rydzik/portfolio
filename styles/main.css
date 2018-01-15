@@ -90,7 +90,7 @@ nav {
 .tri-top {
   position: absolute;
   right: 0;
-  top: 7rem;
+  top: 8rem;
   width: 40%;
 }
 
@@ -303,7 +303,7 @@ footer {
 
   .tri-top {
     top: 3rem;
-    max-width: 220px;
+    max-width: 11.25rem;
   }
 
   .hero-text {
@@ -400,7 +400,7 @@ footer {
   }
 
   .tri-top {
-      max-width: 16rem;
+      max-width: 13.25rem;
   }
 
   .hero-text {
